@@ -1,0 +1,56 @@
+.nav-item {
+    padding-left: 22px;
+    color: white;
+}
+
+.nav-item .nav-link {
+    color: rgb(200, 200, 200);
+}
+
+.active {
+    color: white !important;
+}
+
+.Tour {
+    color: white;
+    font-size: 25px;
+}
+
+.Lets {
+    color: white;
+    font-size: 55px;
+}
+
+.h1 {
+    color: white !important;
+    font-size: 55px !important;
+    text-decoration: none;
+}
+
+.Tour:hover {
+    color: white;
+}
+
+.header {
+    background-color: #6998AB;
+    width: 100%;
+    height: 700px;
+}
+
+.form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    background-color: #1A374D !important;
+    border: 1px solid #1A374D !important;
+}
+
+.carousel-item img {
+    border-radius: 15px !important;
+    height: 600px;
+    overflow: hidden;
+}
