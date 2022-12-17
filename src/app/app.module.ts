@@ -7,13 +7,17 @@ import { RouterModule } from '@angular/router';
 import { MyHomeComponent } from './my-home/my-home.component';
 import { MyHeaderComponent } from './my-header/my-header.component';
 import { MyFooterComponent } from './my-footer/my-footer.component';
+import { ServicesComponent } from './services/services.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MyHomeComponent,
     MyHeaderComponent,
-    MyFooterComponent
+    MyFooterComponent,
+    ServicesComponent,
+
   ],
   imports: [
     BrowserModule,
