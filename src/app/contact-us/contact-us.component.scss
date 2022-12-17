@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.col-1 {
+    width: 8.33% !important;
+}
+
+.col-2 {
+    width: 16.66% !important;
+}
+
+.col-3 {
+    width: 25% !important;
+}
+
+.col-4 {
+    width: 33.33% !important;
+}
+
+.col-5 {
+    width: 41.66% !important;
+}
+
+.col-6 {
+    width: 50% !important;
+}
+
+.col-7 {
+    width: 58.33% !important;
+}
+
+.col-8 {
+    width: 66.66% !important;
+}
+
+.col-9 {
+    width: 75% !important;
+}
+
+.col-10 {
+    width: 83.33% !important;
+}
+
+.col-11 {
+    width: 91.66% !important;
+}
+
+.col-12 {
+    width: 100% !important;
+}
+
+[class*="col-"] {
+    float: left !important;
+}
+
+.row::after {
+    content: "" !important;
+    clear: both !important;
+    display: block !important;
+}
+
+body {
+    padding: 0 !important;
+
+}
+
+.my_header {
+    width: 100% !important;
+    height: 300px !important;
+    background-color: #1A374D !important;
+    text-align: center !important;
+    padding: 100px 300px !important;
+    color: white !important;
+}
+
+.my_header h1 {
+    font-size: 50px !important;
+}
+
+.middle_part {
+    padding: 20px 20px 20px 60px !important;
+}
+
+.message {
+    width: 50% !important;
+    
+}
+
+.message input {
+    margin: 10px 0 !important;
+    padding: 10px !important;
+}
+
+.my_button {
+    padding: 15px !important;
+    margin-top: 20px !important;
+    background-color: #1A374D !important;
+    border-radius: 20% !important;
+}
+
+.quick_cnt {
+    width: 50% !important;
+}
