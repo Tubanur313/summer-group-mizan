@@ -10,6 +10,7 @@ import { MyFooterComponent } from './my-footer/my-footer.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { SiteElementsComponent } from './site-elements/site-elements.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     MyFooterComponent,
     ServicesComponent,
     ContactUsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    SiteElementsComponent
   ],
   imports: [
     BrowserModule,
