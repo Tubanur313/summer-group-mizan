@@ -81,3 +81,49 @@
 .counter-box.colored .counter {
     color: #fff
 }
+.special_offer{
+    margin-top: 30px;
+}
+.special_offer hr {
+    width: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1A374D;
+    height: 2px;
+    border: 0 none;
+  }
+  .special_offer img{
+    border-radius: 20px;
+  }
+  .video video{
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.video hr{
+    width: 8%;
+    margin-left: 5px;
+    background-color: #212529;
+    height: 2px;
+    border: 0 none;
+}
+.video li{
+    list-style-type: circle;
+    margin-bottom: 10px;
+}
+.video .btn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.video .btn-dark{
+    background: #1A374D !important;
+    border-color: #1A374D !important;
+}
+.video .btn-dark:hover{
+    background-color: rgba($color: #1A374D, $alpha: 0.9) !important;
+}
