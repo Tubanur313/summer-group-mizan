@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
 
 .col-1 {
     width: 8.33% !important;
@@ -86,7 +81,7 @@ body {
 
 .message {
     width: 50% !important;
-    
+    float: left !important;
 }
 
 .message input {
@@ -95,12 +90,26 @@ body {
 }
 
 .my_button {
-    padding: 15px !important;
-    margin-top: 20px !important;
     background-color: #1A374D !important;
-    border-radius: 20% !important;
+    border-radius: 30px !important;
+    outline: none !important;
+    border: none !important;
+    padding: 10px 30px !important;
 }
 
 .quick_cnt {
     width: 50% !important;
+    
+    display: flex !important;
+    flex-direction: column !important;
 }
+
+.testimon {
+    clear: both !important;
+    margin-top: 30px;
+}
+
+.tst {
+    text-align: center !important;
+}
+
