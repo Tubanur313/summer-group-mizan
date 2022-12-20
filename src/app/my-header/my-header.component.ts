@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-header.component.scss']
 })
 export class MyHeaderComponent implements OnInit {
-
+  title = "Tutor";
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  showData() {
+    console.log("button is clicked!"); 
+   
+  }
+
+
 
 }

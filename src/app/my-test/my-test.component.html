@@ -1,0 +1,13 @@
+<div class="container-fluid my-test">
+    <input type="text" [value]="userName">
+    <button (click)="showData()">Click here</button>
+
+    <table>
+        <tr>
+            <td [attr.src]="'2'">Test</td>
+        </tr>
+    </table>
+
+    <h1 [class]="my_color_class">My light color</h1>
+    <h1 [class.red_cl]="is_on">My light color</h1>
+</div>

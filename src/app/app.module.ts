@@ -11,6 +11,7 @@ import { ServicesComponent } from './services/services.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { SiteElementsComponent } from './site-elements/site-elements.component';
+import { MyTestComponent } from './my-test/my-test.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SiteElementsComponent } from './site-elements/site-elements.component';
     ServicesComponent,
     ContactUsComponent,
     AboutUsComponent,
-    SiteElementsComponent
+    SiteElementsComponent,
+    MyTestComponent
   ],
   imports: [
     BrowserModule,
