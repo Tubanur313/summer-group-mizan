@@ -3,9 +3,60 @@
     height: 800px;
 }
 
+.s {
+    margin-left: 100px;
+}
+
+.hero {
+    background-color: #6998AB;
+    height: 660px;
+}
+
+
+.Lets {
+    color: white;
+    font-size: 55px;
+}
+
+.h1 {
+    color: white !important;
+    font-size: 55px !important;
+    text-decoration: none;
+}
+
+.Tour:hover {
+    color: white;
+}
+
+.header {
+    background-color: #6998AB;
+    width: 100%;
+    height: 700px;
+}
+
+.form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    background-color: #1A374D !important;
+    border: 1px solid #1A374D !important;
+}
+
+.carousel-item img {
+    border-radius: 15px !important;
+    height: 600px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
 .OS {
     text-align: center;
     padding-top: 150px;
+    font-size: 33px;
 }
 
 .p {
@@ -18,9 +69,38 @@
 
 .Image {
     width: 350px;
-    height: 500px;
+    height: 490px;
     border-radius: 22px !important;
     float: left;
+}
+
+.pers {
+   border-radius: 50%;
+   margin-left: 610px;
+   text-align: center;
+   width: 70px;
+   height: 70px!important;
+}
+
+.Testimonials {
+ background-color: rgb(249, 249, 249);
+ padding-top: 50px;
+ padding-bottom: 50px;
+ margin-bottom: 100px;
+}
+
+.ts {
+    text-align: center;
+}
+
+.tst {
+    text-align: center;
+    font-size: 30px;
+}
+
+.img-wrap {
+    width: 100%;
+    height: 300px;
 }
 
 .float {
@@ -42,7 +122,8 @@
 }
 
 .div {
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .counter-box {
