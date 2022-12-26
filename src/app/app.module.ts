@@ -12,6 +12,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { SiteElementsComponent } from './site-elements/site-elements.component';
 import { MyTestComponent } from './my-test/my-test.component';
+import { BluePartComponent } from './blue-part/blue-part.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MyTestComponent } from './my-test/my-test.component';
     ContactUsComponent,
     AboutUsComponent,
     SiteElementsComponent,
-    MyTestComponent
+    MyTestComponent,
+    BluePartComponent
   ],
   imports: [
     BrowserModule,
