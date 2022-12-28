@@ -9,22 +9,22 @@
                 <form role="search">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+                            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" aria-current="page" routerLink="">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" routerLink="test">Test</a>
+                            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" aria-current="page" routerLink="test">Test</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" routerLink="elements">Elements</a>
+                            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="elements">Elements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" routerLink="services">Services</a>
+                            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" routerLink="about-us">About</a>
+                            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="about-us">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" routerLink="contact-us">Contact Us</a>
+                            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="contact-us">Contact Us</a>
                         </li>
                     </ul>
                 </form>
