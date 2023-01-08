@@ -11,6 +11,8 @@ import { FaqComponent } from './faq/faq.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DiceComponent } from './dice/dice.component';
 import { ElementsComponent } from './elements/elements.component';
+import { MaterialModule } from 'src/material.module';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ElementsComponent } from './elements/elements.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
