@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "first-app": {
+        "summer-group-mizan": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -69,10 +69,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "browserTarget": "first-app:build:production"
+                            "browserTarget": "summer-group-mizan:build:production"
                         },
                         "development": {
-                            "browserTarget": "first-app:build:development"
+                            "browserTarget": "summer-group-mizan:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "first-app:build"
+                        "browserTarget": "summer-group-mizan:build"
                     }
                 },
                 "test": {
@@ -132,12 +132,12 @@
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "first-app:build:production",
-                            "serverTarget": "first-app:server:production"
+                            "browserTarget": "summer-group-mizan:build:production",
+                            "serverTarget": "summer-group-mizan:server:production"
                         },
                         "development": {
-                            "browserTarget": "first-app:build:development",
-                            "serverTarget": "first-app:server:development"
+                            "browserTarget": "summer-group-mizan:build:development",
+                            "serverTarget": "summer-group-mizan:server:development"
                         }
                     },
                     "defaultConfiguration": "production"
