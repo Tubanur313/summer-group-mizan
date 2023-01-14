@@ -16,6 +16,7 @@ export class MyTabMainComponent implements OnInit {
   display:any = "Hide";
 
   hidden = false;
+  // hidden = false;
 
   toggleBadgeVisibility() {
     this.hidden = !this.hidden;
