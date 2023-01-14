@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogData } from 'src/model';
-import { DiceComponent } from '../dice/dice.component';
+import { DiceComponent } from '../entry-components/dice/dice.component';
 
 @Component({
   selector: 'app-dialog',
@@ -28,31 +28,7 @@ export class DialogComponent implements OnInit {
   dataArr:[DialogData,DialogData] = [this.dices1,this.dices2];
 
   ngOnInit(): void {
-    this.rand1 = "";
-    this.rand2 = "";
-    // this.dices = [{title:"",img_path:""}];
-    this.dices1 = {title:"",img_path:""};
-    this.dices2 = {title:"",img_path:""};
-
-    this.dataArr = [
-      this.dices1,
-      this.dices2
-    ]
-
-    this.rand1 = (Math.floor((Math.random() * 6) + 1)).toString();
-    this.rand2 = (Math.floor((Math.random() * 6) + 1)).toString();
-    this.dices1= 
-      {title: this.rand1, 
-      img_path: "dice-"+this.rand1+".png",
-      };
-
-    this.dices2= 
-      {title: this.rand2, 
-      img_path: "dice-"+this.rand2+".png",
-      };
-    this.dataArr[0] = this.dices1
-    this.dataArr[1] = this.dices2
-    
+    this.generateRandom();
   }
 
   generateRandom(){
