@@ -10,7 +10,7 @@ import { ElementsComponent } from './elements/elements.component';
 // import { SiteElementsComponent } from './site-elements/site-elements.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'elements', pathMatch: 'full' },
+  // { path: '',   redirectTo: 'elements', pathMatch: 'full' },
   { path: 'elements', component: ElementsComponent },
 
 
