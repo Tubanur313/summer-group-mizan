@@ -8,8 +8,8 @@ import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { HomeComponent } from './home/home.component';
 // import { FaqComponent } from './faq/faq.component';
-import { DialogComponent } from './dialog/dialog.component';
-import { DiceComponent } from './entry-components/dice/dice.component';
+// import { DialogComponent } from './dialog/dialog.component';
+// import { DiceComponent } from './entry-components/dice/dice.component';
 // import { ElementsComponent } from './elements/elements.component';
 import { MatDialogModule } from '@angular/material/dialog';
 // import { MyBsMainComponent } from './my-bs-main/my-bs-main.component';
@@ -18,23 +18,25 @@ import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 // import { MyTabMainComponent } from './my-tab-main/my-tab-main.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatBadgeModule } from '@angular/material/badge';
+import { ElementsComponent } from './elements/elements.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ElementsComponent,
     // SiteElementsComponent,
     // HomeComponent,
     // FaqComponent,
-    DialogComponent,
-    DiceComponent,
+    // DialogComponent,
+    // DiceComponent,
     // ElementsComponent,
     // MyBsMainComponent,
     // MyBsSubComponent,
     // MyTabMainComponent,
   ],
-  entryComponents: [DiceComponent,
+  // entryComponents: [DiceComponent,
     // MyBsSubComponent,
-  ],
+  // ],
 
   imports: [
     BrowserModule,
