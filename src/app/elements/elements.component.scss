@@ -50,7 +50,7 @@
 //  ---------------------------------------------
 //------------------------------------------------
 
-.accordion{
+.accordion p{
     opacity: .6;
     color: black;
 }
@@ -88,8 +88,8 @@
 }
 .accordion-button::after {
     content: "+";
+    opacity: .6;
     font-weight: bold;
-    // color: #000000;
     transform: translateY(-4px);
     top: 20px;
     left: .3rem;
@@ -104,6 +104,8 @@
 }
 .accordion-button:not(.collapsed)::after {
     content: "-";
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     font-weight: 700;
     display: flex;
     transform: translate(-5px, -4px);
@@ -111,26 +113,26 @@
     text-align: left;
     justify-content: space-between;
     align-items: flex-start;
-}
 
-
-// .accordion-button:not(.collapsed)::after h6{
-//         font-weight: bold;
-//         color: black;
-//         opacity: 1;
-// }
-
-.accordion-button::after h6{
     font-weight: bold;
-    color: black;
+    color: rgb(0, 0, 0);
     opacity: 1;
 }
 
-.accordion-button:focus h6{
+.accordion-button:not(.collapsed) h6{
+    font-weight: bold;
+        color: black;
+        opacity: 1;
+}
+
+.accordion-button h6{
     font-weight: bold;
     color: black;
-    opacity: 1;
+    opacity: .6;
 }
+
+
+
 
 .accordion-item .btn-link:before {
     font-family: 'icomoon';
@@ -162,11 +164,6 @@
         // margin-left: 5rem;
     }
 }
-
-// .custom-accordion .accordion-item .btn-link[aria-expanded="true"] {
-//     font-weight: 700;
-//     color: #1A374D;
-// }
 
 // .accordion-item {
 //     &:not(.show) {
@@ -201,49 +198,6 @@
     font-size: 1.4rem;
 }
 
-.button-grow {
-    // color: #65b5f6;
-    // background-color: transparent;
-    // border: 1px solid #65b5f6;
-    // border-radius: 4px;
-    // padding: 0 16px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .button-grow:hover {
-    transform: scale(1.1);
-  }
-
-// .video-wrap {
-//     position: relative;
-//     display: block; }
-//     .video-wrap .play-wrap {
-//       position: absolute;
-//       top: 50%;
-//       left: 50%;
-//       -webkit-transform: translate(-50%, -50%);
-//       -ms-transform: translate(-50%, -50%);
-//       transform: translate(-50%, -50%);
-//       width: 50px;
-//       height: 50px;
-//       background: rgba(0, 0, 0, 0.2);
-//       border-radius: 50%;
-//       -webkit-transition: .3s all ease;
-//       -o-transition: .3s all ease;
-//       transition: .3s all ease; }
-//       .video-wrap .play-wrap > span {
-//         position: absolute;
-//         top: 50%;
-//         left: 50%;
-//         color: #ffffff;
-//         -webkit-transform: translate(-50%, -50%);
-//         -ms-transform: translate(-50%, -50%);
-//         transform: translate(-50%, -50%); }
-//     .video-wrap:hover .play-wrap {
-//       width: 60px;
-//       height: 60px; }
-
 //------------------------------------------
 
 form input{
@@ -259,14 +213,6 @@ form select{
     height: 2.8rem;
     border: 2px solid #efecec;
 }
-
-// input[type=text]:focus,
-// input[type=password]:focus,
-// form-control:focus,
-// input[type=email]:focus ,
-// input[type=textarea]:focus{
-//     border: 3px solid #1A374D;
-//   }
 
 .form-control:focus {
     border-color: #1A374D;
@@ -306,13 +252,6 @@ form select{
     margin-top: .5rem;
     padding-top: .5rem;
 }
-// #name{
-//     width: 55%;
-// }
-
-// #surname{
-//     width: 55%;
-// } 
 
 @media screen and (min-width: 768px) and (max-width: 998px) {
     
@@ -337,7 +276,6 @@ form select{
 }
 
 .social a{
-    // border: .1rem solid var(--color-body);
     margin-right: .2rem;
     border-radius: 3rem;
     width: 2rem;
@@ -450,9 +388,6 @@ h5{
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.12);
 }
 
-.social-links a:hover{
-    // border: .17rem solid var(--color-brand2);
-}
 
 .unstyled li a {
     line-height: 2rem;
