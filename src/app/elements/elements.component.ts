@@ -8,11 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ElementsComponent implements OnInit {
 
-  btn = document.querySelector('.video-wrap');
-  btn.onclick = function(){
-    btn.classList.add('active')
-  }
-
   constructor() { }
 
   ngOnInit(): void {
