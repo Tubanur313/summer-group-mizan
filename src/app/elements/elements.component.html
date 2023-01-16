@@ -41,78 +41,76 @@
 
 <!-- accordion,gallery,form,video -->
 <section class="section2 my-3 mx-2 mx-sm-3 mx-md-4">
-    <!-- <div class="container"> -->
-        <div class="row justify-content-center align-items-center">
-            <div class="container-fluid my-3"></div>
-                <div class="col-lg-5 me-lg-3 ms-sm-2">
-                    <div class="col-12 me-lg-3 ms-sm-2 col-lg-6 ms-lg-auto me-lg-2">
+        <div class="rel row justify-content-center align-items-center my-3 mx-auto g-4">
+            <!-- <div class="mydiv container-fluid my-3"></div> -->
+                <div class="col-lg-6 me-lg-auto ">
+                    <div class="col-lg-6 ms-lg-auto">
                                 <h2 class="fw-bold">Accordion</h2>
                                 <hr>
-                                <div class="accordion accordion-flush" id="accordion-list">
+                                <div class="accordion accordion-flush" id="accordionExample">
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-content-1">
-                                                <span style="margin-left: 20px;">How to download and register?</span>
-                                            </button>
-                                        </h2>
-                                        <div id="accordion-content-1" class="accordion-collapse collapse" data-bs-parent="#accordion-list">
-                                            <div class="accordion-body">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                            </div>
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            <h6 class="ms-5">How to download and register?</h6>
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti quae, exercitationem ab quidem tenetur cumque eius nulla quos ratione hic?</p>
                                         </div>
+                                      </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-content-2">
-                                                <span style="margin-left: 20px;">How to create your paypal account?</span>
-                                            </button>
-                                        </h2>
-                                        <div id="accordion-content-2" class="accordion-collapse collapse" data-bs-parent="#accordion-list">
-                                            <div class="accordion-body">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                            </div>
+                                      <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <h6 class="ms-5">How to create yout paypal account?</h6>
+                                        </button>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti quae, exercitationem ab quidem tenetur cumque eius nulla quos ratione hic?</p>
                                         </div>
+                                      </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-content-3">
-                                                <span style="margin-left: 20px;">How to link your paypal and bank account?</span>
-                                            </button>
-                                        </h2>
-                                        <div id="accordion-content-3" class="accordion-collapse collapse" data-bs-parent="#accordion-list">
-                                            <div class="accordion-body">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                            </div>
+                                      <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <h6 class="ms-5">How to link your paypal and bank account?</h6>
+                                        </button>
+                                      </h2>
+                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti quae, exercitationem ab quidem tenetur cumque eius nulla quos ratione hic?</p>
                                         </div>
+                                      </div>
                                     </div>
-                
                                 </div>
                     </div>
-                    <div class="col-12 col-lg-6 ms-lg-auto ms-lg-2">
+                    <div class="col-lg-6 ms-lg-auto ms-lg-2">
                         <h2 class="fw-bold">Gallery</h2>
                         <hr>
                         <div class="row justify-content-start">
-                            <div class="col-5 col-lg-6">
+                            <div class="col-4 col-lg-4">
                                 <img src="../../assets/images/gal_1.jpg" alt="img" class="m-1 img-fluid rounded">
                             </div>
-                            <div class="col-5 col-lg-6">
+                            <div class="col-4 col-lg-4">
                                 <img src="../../assets/images/gal_2.jpg" alt="img" class="m-1 img-fluid rounded">
                             </div>
-                            <div class="col-5 col-lg-6">
+                            <div class="col-4 col-lg-4">
                                 <img src="../../assets/images/gal_3.jpg" alt="img" class="m-1 img-fluid rounded">
                             </div>
-                            <div class="col-5 col-lg-6">
+                            <div class="col-4 col-lg-4">
                                 <img src="../../assets/images/gal_4.jpg" alt="img" class=" m-1 img-fluid rounded">
                             </div>
-                            <div class="col-5 col-lg-6">
+                            <div class="col-4 col-lg-4">
                                 <img src="../../assets/images/gal_5.jpg" alt="img" class="m-1 img-fluid rounded">
                             </div>
-                            <div class="col-5 col-lg-6">
+                            <div class="col-4 col-lg-4">
                                 <img src="../../assets/images/gal_6.jpg" alt="img" class="m-1 img-fluid rounded">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 ms-lg-auto ms-0 my-3 py-3">
+                    <div class="col-lg-6 ms-lg-auto my-3 py-3">
                                 <h2 class="d-block fw-bold">Video</h2>
                                 <hr>
                                 <a href="https://vimeo.com/342333493" class="video-wrap d-block mx-auto text-center">
@@ -121,8 +119,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5">
-                    <div class="col-12 col-lg-6">
+                <div class="form-social col-lg-6">
+                    <div class="col-lg-6">
                         <h2 class="fw-bold">Form</h2>
                         <hr>
                         <form action="#" class="bg-white">
@@ -170,7 +168,7 @@
                             <button type="submit" class="submit btn btn-primary my-5">Submit</button>
                         </form>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-lg-6 soc">
                     <h2 class="fw-bold">Social Icons</h2>
                     <hr>
                     <ul class="social list-unstyled d-flex">
@@ -184,13 +182,12 @@
                 </div>
         </div>
 
-    <!-- </div> -->
 </section>
 
 
 
 <!-- slider + -->
-<section class="section3 slider my-3">
+<section class="section3 slider my-4 mt-5 pt-5">
     <div class="container col-12 col-lg-4 ">
         <h2 class="fw-bold text-center">Slider</h2>
         <hr  class="custom-hr text-center mx-auto"/>
@@ -304,25 +301,25 @@
             <div class="col-lg-2">
                 <h3>Pages</h3>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="a text-dark">Blog</a></li>
-                    <li><a href="#" class="a text-dark">About</a></li>
-                    <li><a href="#" class="a text-dark">Contact</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark">Blog</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark">About</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark">Contact</a></li>
                 </ul>
             </div>
             <div class="col-lg-2">
                 <h3>Resources</h3>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="a text-dark">Blog</a></li>
-                    <li><a href="#" class="a text-dark">About</a></li>
-                    <li><a href="#" class="a text-dark">Contact</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark">Blog</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark">About</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark">Contact</a></li>
                 </ul>
             </div>
             <div class="col-lg-4">
                 <h3>Contact</h3>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="a text-dark"><i class="bi bi-envelope-fill me-2" style="opacity: .6;"></i>  mail@example.com</a></li>
-                    <li><a href="#" class="a text-dark"><i class="bi bi-telephone-fill me-2" style="opacity: .6;"></i>  +1 222 212 3819</a></li>
-                    <li><a href="#" class="a text-dark"><i class="bi bi-geo-alt-fill me-2" style="opacity: .6;"></i>  43 Raymouth Rd. Baltemoer, London 3910</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark"><i class="bi bi-envelope-fill me-2" style="opacity: .6;"></i>  mail@example.com</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark"><i class="bi bi-telephone-fill me-2" style="opacity: .6;"></i>  +1 222 212 3819</a></li>
+                    <li class="my-2"><a href="#" class="a text-dark"><i class="bi bi-geo-alt-fill me-2" style="opacity: .6;"></i>  43 Raymouth Rd. Baltemoer, London 3910</a></li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,122 @@
+
+.accordion{
+    opacity: .6;
+    color: black;
+}
+
+.accordion-item{
+    border: none;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+    width: auto;
+    height: auto;
+    background-image: none;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.accordion-button::after {
+    content: "+";
+    font-weight: bold;
+    // color: #000000;
+    transform: translateY(-4px);
+    top: 20px;
+    left: .3rem;
+    text-align: left;
+    // padding-right: auto;
+    padding-bottom: 100px;
+    margin-left: 1rem;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.accordion-button:not(.collapsed)::after {
+    content: "-";
+    font-weight: bold;
+    display: flex;
+    transform: translate(-5px, -4px);
+    transform: rotate(0deg);
+    text-align: left;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+// h6{
+//     opacity: 1;
+//     font-weight: bold;
+//     color: black;
+// }
+
+// .accordion-button:not(.collapsed)::after h6{
+//     font-weight: bold;
+//     color: black;
+//     opacity: 1;
+// }
+
+.accordion-button.collapse h6{
+    font-weight: bold;
+    color: rgb(219, 39, 39);
+    opacity: 1;
+}
+
+// .accordion-button::after h6{
+//     font-weight: bold;
+//     color: black;
+//     opacity: 1;
+// }
+
+// .accordion-button:focus h6{
+//     font-weight: bold;
+//     color: black;
+//     opacity: 1;
+// }
+
+.accordion-item .btn-link:before {
+    font-family: 'icomoon';
+    content: "\f067";
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 15px; 
+}
+
+.accordion-body{
+    background-color: rgb(235, 235, 235);
+}
+
+
+.button-grow {
+    color: #65b5f6;
+    background-color: transparent;
+    border: 1px solid #65b5f6;
+    border-radius: 4px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-grow:hover {
+    transform: scale(1.1);
+  }

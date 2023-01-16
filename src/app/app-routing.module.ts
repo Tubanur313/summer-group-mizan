@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AccordComponent } from './accord/accord.component';
 import { ElementsComponent } from './elements/elements.component';
 // import { DialogComponent } from './dialog/dialog.component';
 // import { ElementsComponent } from './elements/elements.component';
@@ -12,6 +13,7 @@ import { ElementsComponent } from './elements/elements.component';
 const routes: Routes = [
   // { path: '',   redirectTo: 'elements', pathMatch: 'full' },
   { path: 'elements', component: ElementsComponent },
+  { path: 'accord', component: AccordComponent },
 
 
   // { path: 'faq', component: FaqComponent },

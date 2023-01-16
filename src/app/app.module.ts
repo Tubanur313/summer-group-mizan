@@ -19,11 +19,13 @@ import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatBadgeModule } from '@angular/material/badge';
 import { ElementsComponent } from './elements/elements.component';
+import { AccordComponent } from './accord/accord.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ElementsComponent,
+    AccordComponent,
     // SiteElementsComponent,
     // HomeComponent,
     // FaqComponent,
