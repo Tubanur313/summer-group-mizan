@@ -153,7 +153,22 @@
     position: relative;
 }
 
+.section2{
+    position: relative;
+}
+
 @media screen and (min-width:998px) {
+    // .section2{
+    //     position: relative;
+    // }
+
+    // .section3{
+    //     position: absolute;
+    //     top: 200;
+    //     right: 0;
+    //     bottom: 0;
+    // }
+
     .rel{
         position: relative;
     }
