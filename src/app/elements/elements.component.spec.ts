@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SiteElementsComponent } from './site-elements.component';
+import { ElementsComponent } from './elements.component';
 
-describe('SiteElementsComponent', () => {
-  let component: SiteElementsComponent;
-  let fixture: ComponentFixture<SiteElementsComponent>;
+describe('ElementsComponent', () => {
+  let component: ElementsComponent;
+  let fixture: ComponentFixture<ElementsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SiteElementsComponent ]
+      declarations: [ ElementsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SiteElementsComponent);
+    fixture = TestBed.createComponent(ElementsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
