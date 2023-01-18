@@ -407,3 +407,28 @@ h5{
 .unstyled li a {
     line-height: 2rem;
 }
+
+//--------------------------------------------
+
+.modal{
+    width: fit-content;
+   
+}
+
+.modal-dialog{
+    width: 100%;
+}
+
+.modal-content {
+    background-color: transparent;
+    
+
+    // border-top: 20px solid black;
+  }
+
+.modal-body button{
+    // background-color: white;
+    color: white!important;
+    opacity: 1!important;
+    
+  }
