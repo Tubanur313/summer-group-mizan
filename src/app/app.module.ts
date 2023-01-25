@@ -19,7 +19,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, '/summer-group-mizan/assets/i18n/', '.json');
+
 }
 
 @NgModule({
